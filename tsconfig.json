@@ -1,0 +1,6 @@
+{
+	"extends": "@mheob/tsconfig/base",
+	"compilerOptions": {
+		"outDir": "dist"
+	}
+}
