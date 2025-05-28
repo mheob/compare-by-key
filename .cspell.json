@@ -10,7 +10,8 @@
 		"**/dist",
 		"**/logs",
 		"**/node_modules",
-		"**/package.json"
+		"**/package.json",
+		"**/pnpm-lock.yaml"
 	],
-	"words": []
+	"words": ["mheob", "tsdown"]
 }
