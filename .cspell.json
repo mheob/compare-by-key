@@ -1,9 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
-	"version": "0.2",
-	"import": ["@cspell/dict-de-de/cspell-ext.json"],
 	"enabled": true,
-	"language": "en,de,lorem",
 	"ignorePaths": [
 		".git",
 		"**/coverage",
@@ -13,5 +10,8 @@
 		"**/package.json",
 		"**/pnpm-lock.yaml"
 	],
+	"import": ["@cspell/dict-de-de/cspell-ext.json"],
+	"language": "en,de,lorem",
+	"version": "0.2",
 	"words": ["mheob", "tsdown"]
 }
