@@ -1,17 +1,11 @@
 {
-	"npm.packageManager": "pnpm",
-	"typescript.tsdk": "node_modules/typescript/lib",
-
-	// Disable the default formatter, use eslint instead
-	"prettier.enable": false,
-	"editor.formatOnSave": false,
-
 	// Auto fix
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": "explicit",
 		"source.organizeImports": "never"
 	},
 
+	"editor.formatOnSave": false,
 	// Enable eslint for all supported languages
 	"eslint.validate": [
 		"javascript",
@@ -36,9 +30,14 @@
 		"postcss"
 	],
 
+	"npm.packageManager": "pnpm",
+
+	// Disable the default formatter, use eslint instead
+	"prettier.enable": false,
 	// SonarLint
 	"sonarlint.connectedMode.project": {
 		"connectionId": "mheob",
 		"projectKey": "mheob_compare-by-key"
-	}
+	},
+	"typescript.tsdk": "node_modules/typescript/lib"
 }
