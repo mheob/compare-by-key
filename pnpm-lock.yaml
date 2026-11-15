@@ -25,10 +25,10 @@ importers:
         version: 1.2.5(@commitlint/cli@20.5.3(@types/node@24.19.2)(conventional-commits-parser@6.4.0)(typescript@5.9.3))(commitizen@4.3.2(@types/node@24.19.2)(typescript@5.9.3))(cz-git@1.14.0)
       '@mheob/eslint-config':
         specifier: ^8.14.5
-        version: 8.14.5(@next/eslint-plugin-next@15.5.6)(@types/eslint@9.6.1)(eslint-plugin-import-x@4.13.3(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(prettier@3.9.10)(typescript@5.9.3)(vitest@3.2.4(@types/node@24.19.2)(jiti@2.6.1)(yaml@2.9.1))
+        version: 8.14.5(@next/eslint-plugin-next@15.5.6)(@types/eslint@9.6.1)(eslint-plugin-import-x@4.13.3(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(prettier@3.10.1)(typescript@5.9.3)(vitest@3.2.4(@types/node@24.19.2)(jiti@2.6.1)(yaml@2.9.1))
       '@mheob/prettier-config':
         specifier: ^3.5.0
-        version: 3.5.0(prettier@3.9.10)
+        version: 3.5.0(prettier@3.10.1)
       '@mheob/tsconfig':
         specifier: ^2.2.1
         version: 2.2.1
@@ -57,10 +57,10 @@ importers:
         specifier: ^16.4.0
         version: 16.4.0
       prettier:
-        specifier: ^3.9.10
-        version: 3.9.10
+        specifier: ^3.10.0
+        version: 3.10.1
       tsdown:
-        specifier: ^0.23.5
+        specifier: ^0.23.7
         version: 0.23.7(typescript@5.9.3)
       typescript:
         specifier: ^5.9.3
@@ -3317,8 +3317,8 @@ packages:
     peerDependencies:
       prettier: ^3.0.3
 
-  prettier@3.9.10:
-    resolution: {integrity: sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==}
+  prettier@3.10.1:
+    resolution: {integrity: sha512-70vp3ZUYoPlFbF9uiTdXHUUCGEIp7d4+6p+8DYbkm2jP7x/3i/paXVF6dopSI3zd/CEitrZN1rc4i85xWmmXlg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -4851,7 +4851,7 @@ snapshots:
       commitizen: 4.3.2(@types/node@24.19.2)(typescript@5.9.3)
       cz-git: 1.14.0
 
-  '@mheob/eslint-config@8.14.5(@next/eslint-plugin-next@15.5.6)(@types/eslint@9.6.1)(eslint-plugin-import-x@4.13.3(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(prettier@3.9.10)(typescript@5.9.3)(vitest@3.2.4(@types/node@24.19.2)(jiti@2.6.1)(yaml@2.9.1))':
+  '@mheob/eslint-config@8.14.5(@next/eslint-plugin-next@15.5.6)(@types/eslint@9.6.1)(eslint-plugin-import-x@4.13.3(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.5(jiti@2.6.1))(prettier@3.10.1)(typescript@5.9.3)(vitest@3.2.4(@types/node@24.19.2)(jiti@2.6.1)(yaml@2.9.1))':
     dependencies:
       '@antfu/install-pkg': 1.1.0
       '@clack/prompts': 0.11.0
@@ -4875,7 +4875,7 @@ snapshots:
       eslint-plugin-n: 17.23.1(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3)
       eslint-plugin-no-only-tests: 3.3.0
       eslint-plugin-perfectionist: 4.15.1(eslint@9.39.5(jiti@2.6.1))(typescript@5.9.3)
-      eslint-plugin-prettier: 5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.39.5(jiti@2.6.1)))(eslint@9.39.5(jiti@2.6.1))(prettier@3.9.10)
+      eslint-plugin-prettier: 5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.39.5(jiti@2.6.1)))(eslint@9.39.5(jiti@2.6.1))(prettier@3.10.1)
       eslint-plugin-regexp: 2.10.0(eslint@9.39.5(jiti@2.6.1))
       eslint-plugin-toml: 0.12.0(eslint@9.39.5(jiti@2.6.1))
       eslint-plugin-unicorn: 61.0.2(eslint@9.39.5(jiti@2.6.1))
@@ -4886,7 +4886,7 @@ snapshots:
       jsonc-eslint-parser: 2.4.1
       local-pkg: 1.1.2
       parse-gitignore: 2.0.0
-      prettier: 3.9.10
+      prettier: 3.10.1
       svelte: 5.41.1
       toml-eslint-parser: 0.10.0
       vue-eslint-parser: 10.2.0(eslint@9.39.5(jiti@2.6.1))
@@ -4904,10 +4904,10 @@ snapshots:
       - typescript
       - vitest
 
-  '@mheob/prettier-config@3.5.0(prettier@3.9.10)':
+  '@mheob/prettier-config@3.5.0(prettier@3.10.1)':
     dependencies:
-      prettier: 3.9.10
-      prettier-plugin-toml: 2.0.6(prettier@3.9.10)
+      prettier: 3.10.1
+      prettier-plugin-toml: 2.0.6(prettier@3.10.1)
 
   '@mheob/tsconfig@2.2.1': {}
 
@@ -6377,10 +6377,10 @@ snapshots:
       - supports-color
       - typescript
 
-  eslint-plugin-prettier@5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.39.5(jiti@2.6.1)))(eslint@9.39.5(jiti@2.6.1))(prettier@3.9.10):
+  eslint-plugin-prettier@5.5.4(@types/eslint@9.6.1)(eslint-config-prettier@10.1.8(eslint@9.39.5(jiti@2.6.1)))(eslint@9.39.5(jiti@2.6.1))(prettier@3.10.1):
     dependencies:
       eslint: 9.39.5(jiti@2.6.1)
-      prettier: 3.9.10
+      prettier: 3.10.1
       prettier-linter-helpers: 1.0.0
       synckit: 0.11.11
     optionalDependencies:
@@ -7507,12 +7507,12 @@ snapshots:
     dependencies:
       fast-diff: 1.3.0
 
-  prettier-plugin-toml@2.0.6(prettier@3.9.10):
+  prettier-plugin-toml@2.0.6(prettier@3.10.1):
     dependencies:
       '@taplo/lib': 0.5.0
-      prettier: 3.9.10
+      prettier: 3.10.1
 
-  prettier@3.9.10: {}
+  prettier@3.10.1: {}
 
   prop-types@15.8.1:
     dependencies:
