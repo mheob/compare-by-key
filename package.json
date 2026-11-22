@@ -48,7 +48,7 @@
 		"@commitlint/cli": "^20.5.3",
 		"@cspell/dict-de-de": "^4.1.3",
 		"@mheob/changeset-changelog": "^3.0.2",
-		"@mheob/commitlint-config": "^1.2.5",
+		"@mheob/commitlint-config": "^3.0.0",
 		"@mheob/eslint-config": "^8.14.5",
 		"@mheob/prettier-config": "^3.5.0",
 		"@mheob/tsconfig": "^3.0.2",
